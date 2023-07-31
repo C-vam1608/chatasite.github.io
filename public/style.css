@@ -1,0 +1,156 @@
+ /* font-family: 'Dancing Script', cursive;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Open Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lumanosimo', cursive;
+   
+}
+.mebkit-scrollbar{
+   display: none;
+ }
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+header{
+    background-color: #b7327a;
+    color: rgb(232, 222, 224);
+    padding: 7px 20px;
+
+ }
+ .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+ }
+ .bu{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+ h1{
+    font-family:'Dancing Script' ;
+    font-size: 32px;
+    margin-left: 10px;
+ }
+ .container{
+    background-color: rgb(255, 180, 220);
+    padding: 20px;
+    align-items: stretch;
+    display: flex;
+ }
+ .users-window{
+    width: 350px;
+    color: rgb(237, 150, 197);
+    background-color:  rgb(240, 24, 92) ;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+ }
+ .users-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   margin-bottom: 15px;
+ }
+ h4{
+padding: 0 8px ;
+border-radius: 50px;
+color: aliceblue;
+background-color:  rgb(237, 150, 197);
+ }
+ .users-list p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+
+ }
+
+ .chat-window{
+    width: 100%;
+    border-radius:10px ;
+    background-color: rgb(240, 24, 92)  ;
+ }
+ .chats{
+    height: 65vh;
+    padding: 20px;
+    overflow-y: auto;
+ }
+ .user-join{
+    font-size: 0.9rem;
+    color: rgb(234, 20, 134);
+    background-color: rgb(248, 230, 235) ;
+    border-radius: 50px;
+    width: max-content;
+    padding: 7px 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+ }
+.msg{
+    color: brown;
+    background-color: blanchedalmond;
+    padding: 5px 15px ;
+    max-width: 400px;
+    margin-bottom: 15px;
+    border-radius: 10px 50px 50px 10px ;
+}
+.outgoing{
+    margin-left: auto;
+    color: brown; 
+    background-color: blanchedalmond;
+    border-radius: 50px 10px 10px 50px;
+    text-align: right;
+}
+.user-input{
+
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 20px;
+}
+input{
+    font-size: large;
+    background-color:  blanchedalmond;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    border-radius: 50px 0 0 50px;
+}
+.btn{
+font-size: large;
+font-weight: 600;
+padding: 5px 15px;
+border: none;
+outline: none;
+letter-spacing: 0.5px;
+color: brown; 
+background-color: blanchedalmond;
+border-radius: 0 50px 50px 0;
+cursor: pointer;
+}
+@media screen and (max-width: 900px){
+     
+    main{
+        width: 95%;
+    }
+    .mg{
+        max-width: 300px;
+    }
+    
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS sites</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lumanosimo&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+    <header>
+        <div class="title">
+            <img src="img/six.jpg" alt="" width="35px">
+            <h1>sms sites</h1>    
+        </div>
+          <button class="bu" type="button"></button>
+    </header>
+
+    <div class="container">
+        <div class="users-window">
+           <div class="users-head">
+            <h3>people</h3>
+            <h4 class="users-count">0</h4>
+           </div>
+           <div class="users-list">
+            <!-- <p>shivam</p>
+            <p>shubham</p> -->
+           </div>
+        </div>
+        <div class="chat-window">
+            <div class="chats">
+                 <!-- <div class="user-join">
+                     <p><b>shivam</b>joined the chat</p> 
+                </div>  -->
+                <!-- <div class="msg incoming">
+                    <h5>shivam</h5>
+                    <p>hello shubham</p>
+                </div>
+                <div class="msg outgoing">
+                    <h5>shubham</h5>
+                    <p>hello shivam</p>
+                </div>
+                -->
+
+            </div>
+            <div class="user-input">
+                <form action="#" id="send-c">
+                    <input type="text" name="msg" id="user-msg" placeholder="type">
+                    <button
+                    id="user-send" class="btn" type="submit">send</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    </main>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="js/client.js"></script>
+     
+    
+</body>
+</html>
+
+<!-- echo \"Error: no test specified\" && exit 1 -->
+
+<!-- "start": "node server.js" -->
